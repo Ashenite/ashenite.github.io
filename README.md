@@ -1,11 +1,3 @@
-<div align="center">
-  <img src="https://github.com/Ashenite/ashenite.github.io/blob/main/ashenite.png" alt="Ashenite Logo">
-</div>
-
-<h1 align="center">Ashenite</h1>
-
-<h3 align="center">Perfection isn't Enough</h3>
-
 ## About Ashenite
 
 Welcome to Ashenite, a team dedicated to building a better community centered around technology. Our primary goal is to make immersive software solutions that cater to the needs of our community. We strive to create software that is not only innovative but also user-friendly, providing our users with the solutions they actually need, and how they need them.
