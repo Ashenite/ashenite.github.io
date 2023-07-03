@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Ashenite/.github/blob/main/ashenite.png" alt="Ashenite Logo">
+  <img src="https://github.com/Ashenite/ashenite.github.io/blob/main/ashenite.png" alt="Ashenite Logo">
 </div>
 
 <h1 align="center">Ashenite</h1>
