@@ -1,55 +1,84 @@
+<!-- This is modified from the Catppuccin Website -->
+
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-588B2RV4HF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-    <meta charset="utf-8">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8VM42P0ENT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8VM42P0ENT');
-</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Ashenite</title>
-    <meta name="theme-color" content="#eba0ac">
-    <link rel="canonical" href="https://ashenite.org/">
-    <meta property="og:url" content="https://ashenite.org/">
-    <meta name="description" content="Perfection isn't Enough">
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "Ashenite",
-            "url": "https://ashenite.org"
-        }
+      gtag("config", "G-588B2RV4HF");
     </script>
-    <link rel="icon" type="image/jpeg" sizes="500x500" href="assets/img/ashenite.jpg">
-    <link rel="icon" type="image/jpeg" sizes="500x500" href="assets/img/ashenite.jpg">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
-</head>
+    <!-- Google tag (gtag.js) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashenite</title>
+    <meta property="og:title" content="Ashenite" />
+    <meta property="twitter:title" content="Ashenite" />
+    <meta property="og:url" content="https://ashenite.org/" />
+    <link rel="canonical" href="https://ashenite.org/" />
+    <meta name="description" content="Perfection isn't Enough" />
+    <meta property="og:description" content="Perfection isn't Enough" />
+    <meta property="twitter:description" content="Perfection isn't Enough" />
+    <link rel="icon" href="/assets/img/ashenite.jpg" />
+    <meta name="theme-color" content="#cba6f7" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="manifest" href="manifest.json" />
+    <meta property="og:image" content="/embed.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Ashenite",
+        "url": "https://ashenite.org"
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://www.nerdfonts.com/assets/css/webfont.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
 
-<body><canvas class="orb-canvas"></canvas>
-    <div class="overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-md-flex d-lg-flex d-xl-flex d-xxl-flex order-last order-sm-last align-items-md-center order-md-first align-items-lg-center order-lg-first align-items-xl-center order-xl-first align-items-xxl-center order-xxl-first">
-                    <div class="overlay__inner">
-                        <h1 class="d-flex d-sm-flex justify-content-center justify-content-sm-center overlay__title text-gradient">Perfection isn't Enough</h1>
-                        <div class="overlay__btns"><button class="overlay__btn overlay__btn--transparent"><a href="https://github.com/Ashenite" target="_blank">Github<i class="overlay__btn-emoji nf-md-github"></i></a></button><button class="overlay__btn overlay__btn--colors"><a class="alt_a" href="https://www.facebook.com/asheniteorg" target="_blank"> Facebook<i class="overlay__btn-emoji nf-md-facebook"></i></a></button></div>
-                    </div>
-                </div>
-                <div class="col-md-6 d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-sm-center align-items-sm-center justify-content-md-end align-items-md-start justify-content-lg-end align-items-lg-start justify-content-xl-end align-items-xl-start justify-content-xxl-end align-items-xxl-start"><img class="img-fluid" width="300" height="300" src="assets/img/ashenite.jpg"></div>
+  <body>
+    <div id="hero">
+      <div class="content-wrapper no-padding hero-grid">
+        <div class="hero-content-wrapper">
+          <div class="hero-logo">
+            <h2 style="color: var(--mauve)">Ashenite</h2>
+          </div>
+          <div class="hero-content" data-astro-cid-j7pv25f6>
+            <h1 data-astro-cid-j7pv25f6>Perfection isn't Enough</h1>
+            <div class="btn-group" data-astro-cid-j7pv25f6>
+              <a href="https://github.com/Ashenite" data-astro-cid-j7pv25f6>
+                <button
+                  class="btn btn-has-icon btn-mauve"
+                  data-astro-cid-j7pv25f6
+                >
+                  <i class="nf nf-cod-github"></i>
+                  Github
+                </button>
+              </a>
             </div>
+          </div>
         </div>
+        <div class="hero-image">
+          <img
+            src="/assets/img/ashenite.jpg"
+            alt="Ashenite Logo"
+            width="100%"
+          />
+        </div>
+      </div>
     </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.mjs" type="module"></script>
-</body>
-
+  </body>
 </html>
